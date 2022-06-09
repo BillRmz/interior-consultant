@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lora&family=Montserrat&display=swap');
+
+
+body{
+    background: rgb(5, 5, 5);
+    color:white;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+ font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 16px;
+padding: 10px;
+border: solid white 1px;
+margin-left: 5rem;
+}
+
+.logo:hover{
+    color: #4cf341;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin-right: 8rem;
+}
+
+.nav-links li>a:hover{
+    color: #4cf341;
+    border-bottom: #4cf341 solid 2px;
+}
+ul{
+    list-style: none;
+}  
+.nav-links li > a{
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+   
+    
+}
+
+
+.main-container{
+    display: flex;
+    margin-top:4rem;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+
+}
+
+.text-container{
+    width: 410px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text-container h2{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.text-container p{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;  
+}
+
+
+.img-container{
+   width: 700px;
+   height: auto; 
+   padding: 1rem;
+}
+
+.img-container img{
+    max-width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-flow: column wrap;
+    background: black;
+    text-align: start;
+    width: 410px;
+    margin-left: 14rem;
+    margin-top: -6rem;
+    position: absolute;
+    
+
+
+}
+
+.head-info{
+    background: black;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+
+.head-info img{
+   
+    width: 70px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+.text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;  
+}
+.text p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+}
+
+.info h2{
+margin-left: 26px ;
+width: 270px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+
+}
+
+
+.border:hover{
+    border-bottom: 3px #4cf341 solid;
+}
+
+.read:hover{
+    color:#4cf341;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+    
+
+    
+    }
+.button{
+    background: #4cf341;
+    width: 100px;
+    height: 100px;
+
+    }
+
+   .border{
+border-bottom: 2px solid white;
+   } 
+
+   .footer {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #BDBDBD;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+}
+@media all and (max-width:1080px){
+    .main-container{
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    
+    }
+    }
+
+
+
+@media all and (max-width:740px){
+.info{
+    width: auto;
+    margin-left: 7rem;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    margin-left: 0px;
+}
+
+.navbar{
+    padding: 0;
+    width: 800px;
+}
+.menu-btn{
+    display: block;
+    right: 0;
+    left: 600px;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}.nav-links{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #010103;
+   margin-top: -900px;
+   transition: all 0.5s ease;
+
+}
+.mobile-menu{
+    margin-top: 0px;
+    font-size: 38px;
+   
+}
+.nav-links li{
+    margin: 30px auto;
+}
+.main-container{
+    margin-left: 1rem;
+}
+}
