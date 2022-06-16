@@ -216,6 +216,7 @@ border-bottom: 2px solid white;
 .navbar{
     padding: 0;
     width: 800px;
+    position: relative;
 }
 .menu-btn{
     display: block;
@@ -247,4 +248,9 @@ border-bottom: 2px solid white;
 .main-container{
     margin-left: 1rem;
 }
+}
+
+
+@media all and (max-width:600px){
+
 }
